@@ -1,0 +1,11 @@
+This MATLAB program calculates the steady state values of quasi 1D nozzle flow using MacCormack's technique. 
+
+The reference for the algorithm is taken from the "computaional fluid dynamics " book by John D Andserson.
+
+The geometry shape and initial values are taken from the reference book, to avoid blow-up of the solution.
+
+The program calculates the values at each grid point using the MacCormack's technique.
+
+Number of iterations are set to 2000. and the values are plotted on the graph.
+
+The data  at each grid point is stored in a xlsx file, it can be used in determining the parameters at each point. 
